@@ -1,6 +1,6 @@
 <template>
   <div>
-    <city-lista></city-lista>
+    <!-- <city-lista></city-lista> -->
     <city-header></city-header>
     <city-search :cities="cities"></city-search>
     <city-list
@@ -21,15 +21,14 @@ import CityHeader from './components/Header'
 import CitySearch from './components/Search'
 import CityList from './components/List'
 import CityRightheader from './components/Rightheader'
-import CityLista from './components/bette'
+// import CityLista from './components/bette'
 export default {
   name: 'City',
   components: {
     CityHeader,
     CitySearch,
     CityList,
-    CityRightheader,
-    CityLista
+    CityRightheader// CityLista
   },
   data () {
     return {
